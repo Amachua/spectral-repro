@@ -1,0 +1,23 @@
+{
+  "name": "nimma-issue-sample",
+  "version": "1.0.0",
+  "description": "Package to share the issue encountered with nimma",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "^14.17 || ^16.13"
+  },
+  "dependencies": {
+    "@stoplight/spectral-cli": "^6.1.0",
+    "@stoplight/spectral-core": "^1.7.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.12",
+    "jest": "^27.4.4",
+    "ts-jest": "^27.1.1",
+    "typescript": "^4.5.4"
+  }
+}

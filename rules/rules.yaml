@@ -1,0 +1,32 @@
+extends:
+  - [spectral:oas, all]
+
+rules:
+  operation-success-response: "error"
+  operation-description: "error"
+  path-keys-no-trailing-slash: "error"
+
+  operation-operationId: "off"
+  operation-tags: "off"
+  openapi-tags: "off"
+
+  # OAS2 only rules
+  oas2-anyOf: "off"
+  oas2-api-host: "off"
+  oas2-api-schemes: "off"
+  oas2-host-not-example: "off"
+  oas2-host-trailing-slash: "off"
+  oas2-oneOf: "off"
+  oas2-operation-formData-consume-check: "off"
+  oas2-operation-security-defined: "off"
+  oas2-parameter-description: "off"
+  oas2-schema: "off"
+  oas2-unused-definition: "off"
+  oas2-valid-definition-example: "off"
+  oas2-valid-parameter-example: "off"
+  oas2-valid-response-example: "off"
+  oas2-valid-response-schema-example: "off"
+
+  schema-arrays-maxItems: "error"
+  schema-strings-maxLength: "error"
+  duplicated-entry-in-enum: "error"

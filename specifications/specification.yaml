@@ -1,0 +1,32 @@
+openapi: 3.0.0
+
+x-format-version: "2.0"
+
+info:
+  title: Dummy title
+  description: Dummy description
+  version: 1.0.0
+  contact:
+    name: Dummy name
+    url: https://dummy-url.com
+    email: dummy@dummy.com
+  license:
+    url: https://dummy-license.com
+    name: Dummy name
+
+paths:
+  /vexp/resources:
+    get:
+      description: Dummy description
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: integer
+        "400":
+          description: Dummy description
+        default:
+          description: Dummy description
