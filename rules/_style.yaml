@@ -27,6 +27,4 @@ rules:
   oas2-valid-response-example: "off"
   oas2-valid-response-schema-example: "off"
 
-  schema-arrays-maxItems: "error"
-  schema-strings-maxLength: "error"
   duplicated-entry-in-enum: "error"
